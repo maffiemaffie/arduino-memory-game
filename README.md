@@ -19,6 +19,8 @@ The electronics are pretty simple. The buttons connect to a resistor ladder to n
 ![circuit schematic](media/schematic.jpg)
 ![arduino board mockup](media/board-mockup.jpg)
 
+[View the board on Tinkercad!](https://www.tinkercad.com/things/fYEqJZbezV0-memory-game)
+
 ### Components:
 | Part | Quantity |
 |-|-|
