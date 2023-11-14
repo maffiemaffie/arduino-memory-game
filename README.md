@@ -37,8 +37,8 @@ After designing my board in Tinkercad and making sure I wasn't going to blow out
 First I got the buttons wired up with the resistor ladder.
 ![initial button testing](media/button-test.gif)
 
-Then I got all the LEDs hooked up to the Arduino:
+Then I got all the LEDs hooked up to the Arduino:  
 ![initial LED setup](media/led-setup.jpg)
 
-Connecting the buttons to their respective lights:
+Connecting the buttons to their respective lights:  
 ![connecting the buttons to the LEDs](media/button-led-connect.gif)
