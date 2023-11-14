@@ -9,12 +9,14 @@ When I was a kid I used to see a lot of variants of the same memory game. The ga
 For my second project, I made my own circuit to play it. 
 
 ## Gameplay
-The game starts up after a short light sequence when you power the arduino. Each turn, the game will display the pattern using the LEDs and piezo, then the player will repeat back the pattern using the push buttons.
+The game starts up after a short light sequence when you power the Arduino. Each turn, the game will display the pattern using the LEDs and piezo, then the player will repeat back the pattern using the push buttons.
+
+When the game ends, the player can restart the game again by pressing any of the buttons.
 
 ![gameplay demo](media/memory-game-demo.gif)
 
 ## Circuit
-The electronics are pretty simple. The buttons connect to a resistor ladder to notify the program when each one is pressed. The arduino outputs to each of the LEDs and a piezo buzzer.
+The electronics are pretty simple. The buttons connect to a resistor ladder to notify the program when each one is pressed. The Arduino outputs to each of the LEDs and a piezo buzzer.
 
 ![circuit schematic](media/schematic.jpg)
 ![arduino board mockup](media/board-mockup.jpg)
@@ -70,7 +72,7 @@ Finally, I added the piezo and connected all of my Arduino functions to the game
 ![nearly complete circuit](media/bare-bones-circuit.jpg)
 
 ### Cleaning up the design
-Once I had the game fully working, I reorganized the wiring, and trimmed the leads on my components.
+Once I had the game fully working, I reorganized the wiring and trimmed the leads on my components.
 
 ![cleaned up breadboard](media/trimmed-board.jpg)
 After a few tweaks, I finalized my tinkercad mockup and my breadboard and constructed a box to contain all of the circuitry.
