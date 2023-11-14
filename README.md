@@ -76,3 +76,19 @@ Once I had the game fully working, I reorganized the wiring, and trimmed the lea
 After a few tweaks, I finalized my tinkercad mockup and my breadboard and constructed a box to contain all of the circuitry.
 
 ![gameplay demo](media/memory-game-demo.gif)
+
+## Resources
+### Similar To
+- [Arduino - Simple Keyboard](https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneKeyboard)
+- [Arduino - 07 Keyboard Instrument](https://www.youtube.com/watch?v=hprP3fYQfAw)
+
+### Info Sources
+- [Geoffrey Bosdet - Resistor Ladders](https://www.youtube.com/watch?v=XRCTfeWaEmg)
+- [Arduino Language Reference](https://www.arduino.cc/reference/en/)
+- [Frequencies of Musical Notes](https://pages.mtu.edu/~suits/notefreqs.html)
+
+### Spec Sheets
+- [LED (red)](https://wiki-content.arduino.cc/documents/datasheets/LED(red).pdf)
+- [LED (blue)](https://wiki-content.arduino.cc/documents/datasheets/LED(blue).pdf)
+- [Pushbutton](https://wiki-content.arduino.cc/documents/datasheets/Button.pdf)
+- [Piezo](https://wiki-content.arduino.cc/documents/datasheets/piezoCapsule.pdf)
