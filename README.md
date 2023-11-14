@@ -19,6 +19,17 @@ The electronics are pretty simple. The buttons connect to a resistor ladder to n
 ![circuit schematic](media/schematic.jpg)
 ![arduino board mockup](media/board-mockup.jpg)
 
+### Components:
+| Part | Quantity |
+|-|-|
+| Arduino Uno | 1 |
+| 10 k&Omega; Resistor | 1 |
+| 1 k&Omega; Resistor | 3 |
+| 220 &Omega; Resistor | 4 |
+| LED | 4 |
+| Pushbutton | 4 |
+| Piezo | 1 |
+
 ## Software
 I've divided the software into several components:
 - [ButtonHandler](src/ButtonHandler.h): Tracks button presses
