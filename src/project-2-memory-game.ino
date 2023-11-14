@@ -98,7 +98,11 @@ void onRelease(int button) {
   int thisDuration = pressedDuration;
   pressedDuration = 0;
 
-  if (gameState == Ending) return game.start();
+  if (gameState == Ending) {
+    doStartSequence(piezoPin);
+    game.start();
+    return;
+  }
   if (!listeningForInput) return; // bro
   if (thisDuration < noiseThreshold) return; // filter out ghost presses
   game.input(button);
