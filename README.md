@@ -2,14 +2,14 @@
 
 Memory game made for the Arduino.
 
-## Post Mortem vid
-https://github.com/maffiemaffie/arduino-memory-game/assets/111717714/d92406db-ad04-44e5-ac26-3ef79041430a
-
 ![game in progress](media/game-active.jpg)
 
 When I was a kid I used to see a lot of variants of the same memory game. The gameplay is simple: display a pattern that grows longer every turn, have the player repeat back the pattern until they get it wrong.
 
 For my second project, I made my own circuit to play it. 
+
+## Post Mortem vid
+https://github.com/maffiemaffie/arduino-memory-game/assets/111717714/d92406db-ad04-44e5-ac26-3ef79041430a
 
 ## Gameplay
 The game starts up after a short light sequence when you power the Arduino. Each turn, the game will display the pattern using the LEDs and piezo, then the player will repeat back the pattern using the push buttons.
